@@ -1,0 +1,216 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const processItems = [
+  {
+    image: "/assets/process-material.svg",
+    alt: "Abstract placeholder for material experiments",
+    caption:
+      "Material test: surface samples and support structures were compared for how they absorb, reflect, and hold trace."
+  },
+  {
+    image: "/assets/process-site.svg",
+    alt: "Abstract placeholder for on-site assembly",
+    caption:
+      "Site assembly: the hanging geometry was tuned to match how people naturally cross the room rather than forcing a single viewing angle."
+  },
+  {
+    image: "/assets/process-light.svg",
+    alt: "Abstract placeholder for lighting tests",
+    caption:
+      "Light calibration: changes in intensity were treated as sculptural edits, not just technical corrections."
+  },
+  {
+    image: "/assets/process-public.svg",
+    alt: "Abstract placeholder for audience interaction",
+    caption:
+      "Public rehearsal: circulation patterns revealed where the piece slows visitors down and where it invites them to cluster."
+  }
+];
+
+const theoryItems = [
+  {
+    title: "Embodied perception",
+    body:
+      "The installation asks visitors to register shifts in light, scale, and proximity before they convert them into interpretation."
+  },
+  {
+    title: "Index of making",
+    body:
+      "Tool marks, seams, and tests are not hidden. They signal that the piece is a live record of decisions, revisions, and contingencies."
+  },
+  {
+    title: "Threshold space",
+    body:
+      "Rather than behaving like a singular image, the work operates as an atmosphere that visitors enter, traverse, and co-produce."
+  }
+];
+
+const visitItems = [
+  {
+    title: "Location",
+    body: "Install venue name here, with floor or room details for wayfinding."
+  },
+  {
+    title: "Duration",
+    body: "Ideal dwell time: 2 to 5 minutes for a quick pass, longer for close reading."
+  },
+  {
+    title: "Accessibility",
+    body: "Add seating, lighting, caption, and sound-level notes if the installation uses them."
+  },
+  {
+    title: "Credits",
+    body: "Artist, fabricators, collaborators, venue support, and production acknowledgements."
+  }
+];
+---
+
+<BaseLayout
+  title="Drift Installation Guide"
+  description="A QR-friendly microsite for visitors to learn about the installation's process and theoretical basis."
+>
+  <div class="page-shell">
+    <header class="site-header">
+      <div>
+        <p class="site-kicker">Installation guide</p>
+        <p class="site-subtitle">A QR-friendly field guide to process, theory, and encounter.</p>
+      </div>
+      <nav class="section-nav" aria-label="Page sections">
+        <a class="section-link" href="#overview">Overview</a>
+        <a class="section-link" href="#process">Process</a>
+        <a class="section-link" href="#theory">Theory</a>
+        <a class="section-link" href="#visit">Visit</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero-grid" id="overview">
+        <article class="intro-panel panel" data-reveal>
+          <div>
+            <span class="eyebrow">Field Guide</span>
+            <h1 class="hero-title">A field guide to the installation.</h1>
+          </div>
+          <p class="intro-copy">
+            This site is designed for visitors who scan the QR code while standing with the work.
+            It offers a concise reading path through the installation's process, material logic,
+            and theoretical grounding without losing the editorial calm of the original concept.
+          </p>
+          <div class="meta-row">
+            <span>Process archive</span>
+            <span>Theory notes</span>
+            <span>Visit cues</span>
+          </div>
+        </article>
+
+        <div class="stack">
+          <article class="note-card" data-reveal>
+            <strong>What visitors learn here</strong>
+            <p>
+              How the piece was built, how light and material behave inside it, and why the
+              installation is grounded in embodied perception rather than passive viewing.
+            </p>
+          </article>
+          <article class="note-card" data-reveal>
+            <strong>How to customize it</strong>
+            <p>
+              Replace the placeholder process images, tune the wall text to match your actual piece,
+              and swap in venue-specific notes for access, credits, and logistics.
+            </p>
+          </article>
+          <article class="note-card" data-reveal>
+            <strong>Why this direction</strong>
+            <p>
+              It keeps the Cargo-like editorial rhythm from Version 1 while giving you a cleaner
+              structure for long-term updates inside Astro.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-grid" id="process">
+        <div data-reveal>
+          <span class="eyebrow">Process</span>
+          <h2 class="section-title">How the work came together.</h2>
+          <div class="manifesto">
+            <p>
+              The installation evolved through repeated cycles of material testing, on-site
+              calibration, and audience movement studies. Each revision asked the same question:
+              how can the work remain visibly constructed while still producing a transformed
+              spatial experience?
+            </p>
+          </div>
+        </div>
+
+        <div class="image-rail">
+          {
+            processItems.map((item) => (
+              <figure class="image-card" data-reveal>
+                <img src={item.image} alt={item.alt} />
+                <figcaption class="image-caption">{item.caption}</figcaption>
+              </figure>
+            ))
+          }
+        </div>
+      </section>
+
+      <section class="section-grid" id="theory">
+        <div class="theory-stack">
+          <div data-reveal>
+            <span class="eyebrow">Theoretical Basis</span>
+            <h2 class="section-title">The work is about relation, not just objecthood.</h2>
+          </div>
+          <div class="manifesto" data-reveal>
+            <ul class="bullet-list">
+              <li>
+                Phenomenology: meaning emerges through the viewer's moving body, distance, and
+                orientation in space.
+              </li>
+              <li>
+                Material memory: surfaces hold evidence of making, so process remains visible as
+                part of the finished piece.
+              </li>
+              <li>
+                Social choreography: the installation quietly organizes encounter, spacing, and
+                collective attention.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="theory-stack">
+          {
+            theoryItems.map((item) => (
+              <article class="theory-card" data-reveal>
+                <strong>{item.title}</strong>
+                <p>{item.body}</p>
+              </article>
+            ))
+          }
+        </div>
+      </section>
+
+      <section class="visit-grid" id="visit">
+        {
+          visitItems.map((item) => (
+            <article class="visit-card" data-reveal>
+              <strong>{item.title}</strong>
+              <p>{item.body}</p>
+            </article>
+          ))
+        }
+      </section>
+
+      <section class="quote-band" data-reveal>
+        <p class="quote-text">
+          The piece is less a thing to decode than a set of conditions for paying attention.
+        </p>
+      </section>
+
+      <p class="footer-note">
+        Built in Astro so the site can grow from a QR landing page into a maintainable exhibition
+        microsite with reusable content sections.
+      </p>
+    </main>
+  </div>
+</BaseLayout>

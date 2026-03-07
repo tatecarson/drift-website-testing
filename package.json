@@ -1,0 +1,15 @@
+{
+  "name": "drift-website-testing",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev --host 0.0.0.0 --port 4173",
+    "build": "astro build",
+    "preview": "astro preview --host 0.0.0.0 --port 4173",
+    "start": "astro dev --host 0.0.0.0 --port 4173"
+  },
+  "dependencies": {
+    "astro": "latest"
+  }
+}

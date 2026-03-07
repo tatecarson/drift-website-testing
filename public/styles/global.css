@@ -1,0 +1,492 @@
+:root {
+  --paper: #f2ede3;
+  --ink: #111111;
+  --muted: #645f58;
+  --accent: #b45a3c;
+  --line: rgba(17, 17, 17, 0.16);
+  --panel: rgba(255, 255, 255, 0.42);
+  --shadow: 0 16px 40px rgba(17, 17, 17, 0.11);
+  --serif: "DM Serif Display", "Iowan Old Style", Georgia, serif;
+  --sans: "Instrument Sans", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  color: var(--ink);
+  background:
+    radial-gradient(circle at top left, rgba(180, 90, 60, 0.12), transparent 30%),
+    linear-gradient(180deg, #f6f1e8 0%, #ece5d7 100%);
+  font-family: var(--sans);
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+a {
+  color: inherit;
+}
+
+.page-shell {
+  width: min(1200px, calc(100% - 2rem));
+  margin: 0 auto;
+  padding: 1rem 0 4rem;
+}
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0 1.2rem;
+  backdrop-filter: blur(10px);
+  background: linear-gradient(180deg, rgba(242, 237, 227, 0.94), rgba(242, 237, 227, 0.74));
+  border-bottom: 1px solid var(--line);
+}
+
+.site-kicker,
+.section-link,
+.eyebrow,
+.meta-row,
+.note-card strong,
+.theory-card strong,
+.visit-card strong,
+.footer-note {
+  font-size: 0.8rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.site-kicker,
+.site-subtitle {
+  margin: 0;
+}
+
+.site-subtitle {
+  margin-top: 0.35rem;
+  max-width: 24rem;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: var(--muted);
+}
+
+.section-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+}
+
+.section-link {
+  padding: 0.55rem 0.8rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.38);
+  text-decoration: none;
+  transition: transform 180ms ease, background 180ms ease, border-color 180ms ease;
+}
+
+.section-link:hover,
+.section-link:focus-visible {
+  background: rgba(180, 90, 60, 0.15);
+  border-color: rgba(116, 54, 29, 0.35);
+  transform: translateY(-1px);
+}
+
+.eyebrow {
+  display: inline-block;
+  margin: 0 0 1rem;
+  color: var(--muted);
+}
+
+.hero-title,
+.section-title,
+.quote-text {
+  margin: 0;
+  font-family: var(--serif);
+  font-weight: 400;
+  line-height: 0.92;
+  letter-spacing: -0.03em;
+}
+
+.hero-title {
+  font-size: clamp(3.5rem, 11vw, 8rem);
+  max-width: 8.5ch;
+}
+
+.section-title {
+  font-size: clamp(2.4rem, 7vw, 5rem);
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1.4fr 0.95fr;
+  gap: 1.25rem;
+  padding: 2rem 0 1rem;
+}
+
+.panel,
+.note-card,
+.visit-card,
+.theory-card,
+.manifesto,
+.image-card {
+  border: 1px solid var(--line);
+  background: var(--panel);
+  box-shadow: var(--shadow);
+}
+
+.intro-panel {
+  padding: 1.4rem;
+  display: grid;
+  gap: 1.2rem;
+  align-content: start;
+  min-height: 78vh;
+}
+
+.intro-copy {
+  max-width: 35rem;
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.65;
+}
+
+.meta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.25rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--line);
+}
+
+.stack,
+.theory-stack {
+  display: grid;
+  gap: 1rem;
+}
+
+.note-card,
+.theory-card,
+.visit-card,
+.manifesto {
+  padding: 1rem;
+}
+
+.note-card p,
+.theory-card p,
+.visit-card p,
+.manifesto p,
+.image-caption,
+.bullet-list li {
+  margin: 0;
+  font-size: 0.98rem;
+  line-height: 1.6;
+}
+
+.note-card strong,
+.theory-card strong,
+.visit-card strong {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.section-grid {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 1.25rem;
+  margin-top: 2rem;
+}
+
+.manifesto {
+  margin-top: 1.25rem;
+  background:
+    linear-gradient(145deg, rgba(255, 255, 255, 0.62), rgba(255, 255, 255, 0.24)),
+    linear-gradient(120deg, rgba(180, 90, 60, 0.12), transparent 60%);
+}
+
+.image-rail {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.image-card {
+  padding: 0.75rem;
+}
+
+.image-card img {
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  border: 1px solid var(--line);
+}
+
+.image-caption {
+  padding-top: 0.85rem;
+  color: var(--muted);
+}
+
+.bullet-list {
+  margin: 0;
+  padding-left: 1.1rem;
+  display: grid;
+  gap: 0.65rem;
+}
+
+.visit-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.quote-band {
+  margin-top: 2rem;
+  padding: 2rem 1.2rem;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.quote-text {
+  max-width: 16ch;
+  font-size: clamp(2.2rem, 6vw, 4.8rem);
+}
+
+.footer-note {
+  margin-top: 2rem;
+  line-height: 1.6;
+  color: var(--muted);
+}
+
+[data-reveal] {
+  opacity: 0;
+  transform: translateY(18px);
+  transition: opacity 420ms ease, transform 420ms ease;
+}
+
+[data-reveal].is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ── Tablet ── */
+@media (max-width: 980px) {
+  .hero-grid,
+  .section-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .visit-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* ── Mobile ── */
+@media (max-width: 720px) {
+  .page-shell {
+    width: 100%;
+    padding: 0 1rem 3rem;
+  }
+
+  /* ── Compact sticky header ── */
+  .site-header {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.65rem;
+    padding: 0.7rem 1rem 0.6rem;
+    margin: 0 -1rem;
+    width: calc(100% + 2rem);
+  }
+
+  .site-kicker {
+    font-size: 0.7rem;
+  }
+
+  .site-subtitle {
+    font-size: 0.82rem;
+    margin-top: 0.2rem;
+  }
+
+  /* ── Horizontal scroll nav ── */
+  .section-nav {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 0.45rem;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    padding-bottom: 2px;
+    margin: 0 -1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .section-nav::-webkit-scrollbar {
+    display: none;
+  }
+
+  .section-link {
+    flex-shrink: 0;
+    padding: 0.5rem 0.9rem;
+    font-size: 0.72rem;
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+  }
+
+  /* ── Hero ── */
+  .hero-grid {
+    grid-template-columns: 1fr;
+    padding: 1.4rem 0 0.5rem;
+    gap: 1rem;
+  }
+
+  .intro-panel {
+    min-height: auto;
+    padding: 1.2rem;
+    gap: 1rem;
+  }
+
+  .hero-title {
+    font-size: clamp(2.6rem, 10vw, 3.8rem);
+    max-width: 10ch;
+    line-height: 0.95;
+  }
+
+  .intro-copy {
+    font-size: 0.92rem;
+    line-height: 1.6;
+  }
+
+  .meta-row {
+    gap: 0.5rem 1rem;
+    font-size: 0.72rem;
+  }
+
+  .eyebrow {
+    font-size: 0.72rem;
+    margin-bottom: 0.75rem;
+  }
+
+  /* ── Sections ── */
+  .section-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-top: 1.6rem;
+  }
+
+  .section-title {
+    font-size: clamp(1.8rem, 7vw, 2.6rem);
+    line-height: 0.96;
+  }
+
+  .manifesto {
+    margin-top: 0.85rem;
+  }
+
+  /* ── Image rail: keep 2-col on mobile ── */
+  .image-rail {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.65rem;
+  }
+
+  .image-card {
+    padding: 0.5rem;
+  }
+
+  .image-card img {
+    aspect-ratio: 3 / 4;
+  }
+
+  .image-caption {
+    font-size: 0.78rem;
+    padding-top: 0.55rem;
+    line-height: 1.45;
+  }
+
+  /* ── Visit grid: keep 2-col ── */
+  .visit-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.65rem;
+    margin-top: 1.6rem;
+  }
+
+  .visit-card,
+  .note-card,
+  .theory-card {
+    padding: 0.85rem;
+  }
+
+  .note-card p,
+  .theory-card p,
+  .visit-card p,
+  .manifesto p,
+  .bullet-list li {
+    font-size: 0.88rem;
+    line-height: 1.55;
+  }
+
+  .note-card strong,
+  .theory-card strong,
+  .visit-card strong {
+    font-size: 0.72rem;
+    margin-bottom: 0.35rem;
+  }
+
+  /* ── Quote band ── */
+  .quote-band {
+    margin-top: 1.6rem;
+    padding: 1.6rem 1rem;
+  }
+
+  .quote-text {
+    font-size: clamp(1.6rem, 6.5vw, 2.4rem);
+    max-width: 14ch;
+    line-height: 1.05;
+  }
+
+  /* ── Stack spacing ── */
+  .stack,
+  .theory-stack {
+    gap: 0.65rem;
+  }
+
+  /* ── Footer ── */
+  .footer-note {
+    margin-top: 1.4rem;
+    font-size: 0.72rem;
+  }
+
+  /* ── Reveal animation: subtler on mobile ── */
+  [data-reveal] {
+    transform: translateY(12px);
+    transition: opacity 350ms ease, transform 350ms ease;
+  }
+}
+
+/* ── Small phones ── */
+@media (max-width: 380px) {
+  .hero-title {
+    font-size: 2.2rem;
+  }
+
+  .section-title {
+    font-size: 1.6rem;
+  }
+
+  .image-rail {
+    grid-template-columns: 1fr;
+  }
+}
