@@ -271,6 +271,20 @@ a:hover {
   font-size: 0.8rem;
 }
 
+.image-caption strong {
+  display: block;
+  margin-bottom: 0.35rem;
+  color: var(--fg);
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.image-caption span {
+  display: block;
+}
+
 /* ── Bullet list ── */
 .bullet-list {
   list-style: none;
