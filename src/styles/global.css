@@ -233,7 +233,6 @@ a:hover {
 
 .section-grid > div:first-child {
   padding: 3rem 2rem 3rem 0;
-  border-right: 1px solid var(--line);
   position: sticky;
   top: 4rem;
   align-self: start;
@@ -241,6 +240,7 @@ a:hover {
 
 .section-grid > div:last-child {
   padding: 3rem 0 3rem 2rem;
+  border-left: 1px solid var(--line);
 }
 
 .manifesto {
@@ -418,12 +418,14 @@ a:hover {
 
   .section-grid > div:first-child {
     padding: 2rem 0;
-    border-right: none;
     border-bottom: 1px solid var(--line);
+    position: static;
+    align-self: auto;
   }
 
   .section-grid > div:last-child {
     padding: 2rem 0;
+    border-left: none;
   }
 
   .image-rail {
