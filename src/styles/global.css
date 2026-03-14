@@ -263,6 +263,42 @@ a:hover {
   object-fit: cover;
   background: var(--tint);
   border: none;
+  cursor: pointer;
+}
+
+/* ── Lightbox ── */
+.lightbox {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  background: rgba(0, 0, 0, 0.9);
+  align-items: center;
+  justify-content: center;
+}
+
+.lightbox.is-active {
+  display: flex;
+}
+
+.lightbox-img {
+  max-width: 90vw;
+  max-height: 90vh;
+  object-fit: contain;
+  border: none;
+}
+
+.lightbox-close {
+  position: absolute;
+  top: 1rem;
+  right: 1.25rem;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 2rem;
+  cursor: pointer;
+  line-height: 1;
+  padding: 0.25rem 0.5rem;
 }
 
 .image-caption {
@@ -450,7 +486,7 @@ a:hover {
   }
 
   .image-rail {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 1rem;
   }
 
@@ -479,7 +515,4 @@ a:hover {
     font-size: 2rem;
   }
 
-  .image-rail {
-    grid-template-columns: 1fr;
-  }
 }

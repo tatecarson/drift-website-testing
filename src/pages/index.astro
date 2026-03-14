@@ -9,7 +9,7 @@ const processItems = [
     title: "Early Experimentation",
     alt: "Prototype disc fitted with vertical wooden dowels during an early studio sound and form experiment",
     caption:
-      "In an early studio session, Tate tests the relationship between sound and spatial form using a prototype disc fitted with vertical wooden dowels. This first iteration explored the placement of sound-emitting elements and laid the conceptual groundwork for Drift's kinetic structure."
+      "In an early studio session, Tim tests the relationship between sound and spatial form using a prototype disc fitted with vertical wooden dowels. This first iteration explored the placement of sound-emitting elements and laid the conceptual groundwork for Drift's kinetic structure."
   },
   {
     image: `${base}/assets/2. cutting-rings.jpeg`,
@@ -278,4 +278,38 @@ const visitItems = [
       </p>
     </main>
   </div>
+
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" aria-label="Close">&times;</button>
+    <img class="lightbox-img" id="lightbox-img" src="" alt="" />
+  </div>
+
+  <script>
+    const lightbox = document.getElementById("lightbox")!;
+    const lightboxImg = document.getElementById("lightbox-img") as HTMLImageElement;
+
+    document.querySelectorAll<HTMLImageElement>(".image-card img").forEach((img) => {
+      img.addEventListener("click", () => {
+        lightboxImg.src = img.src;
+        lightboxImg.alt = img.alt;
+        lightbox.classList.add("is-active");
+      });
+    });
+
+    lightbox.querySelector(".lightbox-close")!.addEventListener("click", () => {
+      lightbox.classList.remove("is-active");
+    });
+
+    lightbox.addEventListener("click", (e) => {
+      if (e.target === lightbox) {
+        lightbox.classList.remove("is-active");
+      }
+    });
+
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") {
+        lightbox.classList.remove("is-active");
+      }
+    });
+  </script>
 </BaseLayout>
