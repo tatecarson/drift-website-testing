@@ -234,6 +234,9 @@ a:hover {
 .section-grid > div:first-child {
   padding: 3rem 2rem 3rem 0;
   border-right: 1px solid var(--line);
+  position: sticky;
+  top: 4rem;
+  align-self: start;
 }
 
 .section-grid > div:last-child {
