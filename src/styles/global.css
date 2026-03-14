@@ -350,18 +350,13 @@ a:hover {
 }
 
 .visit-grid .visit-card {
-  padding: 2rem 1.5rem 2rem 0;
+  padding: 2rem 1.5rem;
   border-bottom: none;
   border-right: 1px solid var(--line);
 }
 
 .visit-grid .visit-card:last-child {
   border-right: none;
-  padding-right: 0;
-}
-
-.visit-grid .visit-card:first-child {
-  padding-left: 0;
 }
 
 /* ── Quote Band ── */
