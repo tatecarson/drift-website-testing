@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "title": "Drift — Sculptural Sound Art",
+    "description": "Drift reimagines the white noise machine as sculptural sound art, exploring the continuum between noise and music through networked, resonant instruments."
+  },
+  "header": {
+    "kicker": "Tate Carson & Tim Murray",
+    "subtitle": "Sculptural sound art exploring the continuum between noise and music."
+  },
+  "hero": {
+    "eyebrow": "About Drift",
+    "title": "The white noise machine, reimagined as art.",
+    "introCopy": "Drift transforms utilitarian white noise machines into networked, resonant sound sculptures. Using microcontrollers, actuators, and tuned materials, each sculpture slowly shifts from noise toward emergent musical patterns — inviting deep listening and reflection on sonic self-control.",
+    "metaTags": [
+      "Sound & fabrication",
+      "Orphic Media",
+      "Deep listening"
+    ],
+    "noteCards": [
+      {
+        "title": "What you'll experience",
+        "body": "A dynamic soundscape among sculptures incorporating resonant materials that reflect both light and sound. Witness the transition from masking noise to emergent music."
+      },
+      {
+        "title": "An interdisciplinary collaboration",
+        "body": "Sound design and programming by Tate Carson, design and fabrication by Tim Murray. The project integrates electronics and software with traditional woodcraft."
+      },
+      {
+        "title": "The central question",
+        "body": "In what ways can the white noise machine be reconceived as an artistic object that illuminates the continuum between noise and music?"
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "Process",
+    "title": "How the work came together.",
+    "description": "Drift evolved through repeated cycles of prototyping, material testing, and sonic calibration. Each revision asked the same question: how can the sculpture remain visibly constructed — tool marks, seams, and all — while producing a transformed listening experience?"
+  },
+  "theory": {
+    "eyebrow": "Theoretical Basis",
+    "title": "How noise, sound, and listening shape daily life.",
+    "bulletList": [
+      "Orphic Media: technologies like white noise machines modify perception and reshape mood and attention in ways we rarely examine.",
+      "Material memory: surfaces hold evidence of making, so process remains visible as part of the finished piece.",
+      "Threshold instrument: the sculpture gradually reveals the continuum between noise and music, turning a utilitarian object into a platform for reflective listening."
+    ],
+    "cards": [
+      {
+        "title": "Orphic Media",
+        "body": "Drift reframes the white noise machine as a technology that modifies perception and experience — emphasizing modulation over traditional representation."
+      },
+      {
+        "title": "Noise as creative material",
+        "body": "The sculptures position noise not as something to mask or eliminate, but as creative material to be reshaped and experienced as music."
+      },
+      {
+        "title": "Deep listening",
+        "body": "By shifting between noise and musical patterns, the work encourages attentive listening and expanded awareness of everyday sound environments."
+      }
+    ]
+  },
+  "visit": {
+    "cards": [
+      {
+        "title": "Location",
+        "body": "DSU Gallery, Dakota State University, Madison, SD."
+      },
+      {
+        "title": "Duration",
+        "body": "Ideal dwell time: 2 to 5 minutes for a quick pass, longer for close listening."
+      },
+      {
+        "title": "What to notice",
+        "body": "Listen for the slow transition from white noise to emergent musical patterns. Observe how resonant materials reflect both light and sound."
+      },
+      {
+        "title": "Credits",
+        "body": "Sound design and programming: Tate Carson. Design and fabrication: Tim Murray."
+      }
+    ]
+  },
+  "quote": {
+    "text": "Drift encourages audiences to reconsider their listening habits and to recognize the artistry inherent in mediated sounds that influence daily life."
+  },
+  "footer": {
+    "text": "Drift is supported by Dakota State University. The project integrates sound art scholarship with innovative artistic methods to expand discourse on underexamined sound technologies."
+  }
+}

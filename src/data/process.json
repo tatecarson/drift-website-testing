@@ -1,0 +1,74 @@
+[
+  {
+    "image": "/assets/1. early-experimentation.jpeg",
+    "title": "Early Experimentation",
+    "alt": "Prototype disc fitted with vertical wooden dowels during an early studio sound and form experiment",
+    "caption": "In an early studio session, Tim tests the relationship between sound and spatial form using a prototype disc fitted with vertical wooden dowels. This first iteration explored the placement of sound-emitting elements and laid the conceptual groundwork for Drift's kinetic structure."
+  },
+  {
+    "image": "/assets/2. cutting-rings.jpeg",
+    "title": "Cutting the Rings",
+    "alt": "Large plywood rings being routed in the workshop",
+    "caption": "Tim shapes large circular rings from plywood in his workshop, using a router to cut the concentric forms that would become Drift's signature visual element. The rings — some nearly four feet across — required precision cutting across multiple sessions."
+  },
+  {
+    "image": "/assets/3. the-rings.jpeg",
+    "title": "The Rings",
+    "alt": "Freshly cut concentric plywood rings nested within the original sheet",
+    "caption": "The freshly cut rings, still nested within the plywood sheet from which they were routed, photographed outside the workshop. This image captures both the material process and the emerging visual language of the work: concentric circles that cast dramatic shadows in gallery space."
+  },
+  {
+    "image": "/assets/4. more-ring-process.jpeg",
+    "title": "Rings in Space",
+    "alt": "Suspended wooden rings casting concentric shadows during an early lighting test",
+    "caption": "An early suspension test: wooden rings hung from wires in a darkened space, casting concentric shadow circles on the wall behind them. Testing how the rings interact with light became central to developing Drift's visual experience."
+  },
+  {
+    "image": "/assets/5. cutting-legs.png",
+    "title": "Cutting the Legs",
+    "alt": "Wooden dowels being cut to size for the hanging interior structure",
+    "caption": "Tim cuts the wooden dowels that will hang vertically within Drift's structure. Each rod is sized to precise dimensions to create the layered visual rhythm of the final installation."
+  },
+  {
+    "image": "/assets/6. diagramming-rotation.jpeg",
+    "title": "Diagramming the Rotation",
+    "alt": "Digital overhead schematic of the base motor and belt-drive system",
+    "caption": "A digital schematic of the base's motor and belt-drive system, viewed from above. Tim developed this diagram to work out servo motor placement, pulley routing, and mounting points — the engineering logic that will make the sculpture move."
+  },
+  {
+    "image": "/assets/7. building-the-base.jpeg",
+    "title": "Building the Base",
+    "alt": "Large circular base framework being glued and clamped together",
+    "caption": "Tim glues and clamps the radial rib framework of the large circular base — a wagon-wheel structure that will house the drive mechanism and anchor the hanging vertical elements above."
+  },
+  {
+    "image": "/assets/8. building-the-base-2.jpeg",
+    "title": "The Bent Skirt",
+    "alt": "Curved plywood exterior band beside the assembled base framework",
+    "caption": "The curved exterior band — a strip of plywood bent into a full circle — sits beside the assembled rib framework. Getting the curve to hold cleanly required careful wood preparation and extended clamping time."
+  },
+  {
+    "image": "/assets/9. building the base-3.jpeg",
+    "title": "Securing the Base",
+    "alt": "Fasteners being drilled into the assembled circular base while clamps remain in place",
+    "caption": "Tim drills fasteners into the assembled base, with glue and bar clamps still in place. The structure is nearly five feet in diameter, built to support the full weight of the kinetic installation."
+  },
+  {
+    "image": "/assets/9.5 the base.jpeg",
+    "title": "The Base Complete",
+    "alt": "Finished circular plywood base with white-painted edge ready for motor installation",
+    "caption": "The finished base: a smooth plywood disc with a clean white-painted edge, standing nearly five feet across. Structurally complete, it is now ready to receive the motor and electronics."
+  },
+  {
+    "image": "/assets/10. spinning mechanism.jpeg",
+    "title": "Electronics and Motion",
+    "alt": "Servo motors, brackets, wiring, and a wooden bearing housing laid out for assembly",
+    "caption": "Tate lays out the servo motors, brackets, and control wiring that will drive Drift's rotation. The stacked wooden bearing housing at center, surrounded by motor components, represents the integration of Carson's electronics and software work with Murray's woodcraft."
+  },
+  {
+    "image": "/assets/11. full-design-diagram.png",
+    "title": "Full Installation Design",
+    "alt": "Scale study rendering showing the installation footprint relative to a standing viewer",
+    "caption": "Tim's scale study for the Drift installation, created to explore the work's footprint and proportions in relation to a viewer's body. The fabrication is ongoing — this rendering helps calibrate the physical form as the components come together."
+  }
+]
