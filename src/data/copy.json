@@ -20,7 +20,7 @@
     "noteCards": [
       {
         "title": "What you'll experience",
-        "body": "A dynamic soundscape among sculptures incorporating resonant materials that reflect both light and sound. Witness the transition from masking noise to emergent music."
+        "body": "Drift is sculptural as well as architectural — you don't just look at or listen to the work, you step inside it. Enveloped in a dynamic soundscape among resonant materials that reflect both light and sound, audiences hear themselves hearing, witnessing the transition from masking noise to emergent music."
       },
       {
         "title": "An interdisciplinary collaboration",
@@ -43,7 +43,8 @@
     "bulletList": [
       "Orphic Media: technologies like white noise machines modify perception and reshape mood and attention — what Mack Hagood calls <a href=\"https://dukeupress.edu/hush\" target=\"_blank\">orphic media</a> — in ways we rarely examine.",
       "Sonic self-control: from <a href=\"https://www.theatlantic.com/technology/archive/2019/06/how-a-bad-nights-sleep-birthed-the-sound-conditioner/592177/\" target=\"_blank\">Buckwalter's first white noise machine</a> to <a href=\"https://boseaviation.com/about/history/\" target=\"_blank\">Bose's noise-cancelling headphones</a>, people have invented tools to command their auditory environment. Drift makes this history audible.",
-      "Technologies of the self: Irv Teibel's Environments records promised not just masking noise but improving productivity, sleep, even plant growth — sound as a technology for coping with the pressures of modern life."
+      "Technologies of the self: Irv Teibel's Environments records promised not just masking noise but improving productivity, sleep, even plant growth — sound as a technology for coping with the pressures of modern life.",
+      "Scale and perception: scale once implied a straightforward relation between viewer and artwork, but contemporary installations examine scales that range outside normal perceptual understanding — works larger than can be experienced all at once, creating spaces audiences inhabit rather than observe."
     ],
     "cards": [
       {
@@ -57,8 +58,17 @@
       {
         "title": "What silence reveals",
         "body": "Tinnitus is sometimes described as the brain's signal for silence — our attention straining to find meaning in the quiet. Drift asks a similar question: what emerges when we stop masking and start listening?"
+      },
+      {
+        "title": "Scale as confrontation",
+        "body": "Drift redesigns the white noise machine many times larger than its commercial counterpart, making it impractical for its intended purpose — masking unwanted sound in a living environment. This deliberate scaling transforms a background appliance into something you confront, stand inside, and reflect on. Drift allows us to hear ourselves hearing."
       }
     ]
+  },
+  "future": {
+    "eyebrow": "What's Next",
+    "title": "Four sculptures, one continuum.",
+    "body": "Currently, Drift consists of a single kinetic sculpture. In its next phase, the installation will expand to four progressively smaller but identical sculptures — surrounding the listener in white noise and making the commentary on scale even more pronounced. Where one oversized machine already challenges the domestic comfort of its commercial counterpart, four will envelop the audience entirely, deepening the question of what happens when the tool we built to ignore sound becomes impossible to ignore."
   },
   "quote": {
     "text": "We spend our lives controlling what we hear — masking, cancelling, curating. Drift asks what happens when we stop managing the soundscape and start listening to it."
