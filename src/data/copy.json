@@ -59,30 +59,10 @@
       }
     ]
   },
-  "visit": {
-    "cards": [
-      {
-        "title": "Location",
-        "body": "DSU Gallery, Dakota State University, Madison, SD."
-      },
-      {
-        "title": "Duration",
-        "body": "Ideal dwell time: 2 to 5 minutes for a quick pass, longer for close listening."
-      },
-      {
-        "title": "What to notice",
-        "body": "Listen for the slow transition from white noise to emergent musical patterns. Observe how resonant materials reflect both light and sound."
-      },
-      {
-        "title": "Credits",
-        "body": "Sound design and programming: Tate Carson. Design and fabrication: Tim Murray."
-      }
-    ]
-  },
   "quote": {
     "text": "We spend our lives controlling what we hear — masking, cancelling, curating. Drift asks what happens when we stop managing the soundscape and start listening to it."
   },
   "footer": {
-    "text": "Drift is supported by Dakota State University. The project integrates sound art scholarship with innovative artistic methods to expand discourse on underexamined sound technologies."
+    "text": "Drift will debut at <a href=\"https://dsu.edu/research/research-events.html\" target=\"_blank\">DSU Research Week</a>, Dakota State University, Madison, SD. The project is supported by DSU and integrates sound art scholarship with innovative artistic methods."
   }
 }

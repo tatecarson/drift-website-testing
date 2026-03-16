@@ -344,12 +344,22 @@ a:hover {
   color: var(--muted);
 }
 
+.bullet-list a {
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
 /* ── Visit Grid ── */
 .visit-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 0;
   border-bottom: 1px solid var(--line);
+}
+
+.visit-header {
+  grid-column: 1 / -1;
+  padding: 2rem 1.5rem 1rem;
 }
 
 .visit-grid .visit-card {
@@ -384,6 +394,11 @@ a:hover {
   text-transform: uppercase;
   color: var(--muted);
   line-height: 1.8;
+}
+
+.footer-note a {
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
 }
 
 /* ── Reveal Animation ── */

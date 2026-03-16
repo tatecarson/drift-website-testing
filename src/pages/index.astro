@@ -17,7 +17,6 @@ const base = import.meta.env.BASE_URL;
         <a class="section-link" href="#overview">Overview</a>
         <a class="section-link" href="#process">Process</a>
         <a class="section-link" href="#theory">Theory</a>
-        <a class="section-link" href="#visit">Visit</a>
       </nav>
     </header>
 
@@ -95,22 +94,11 @@ const base = import.meta.env.BASE_URL;
         </div>
       </section>
 
-      <section class="visit-grid" id="visit">
-        {
-          copy.visit.cards.map((item) => (
-            <article class="visit-card" data-reveal>
-              <strong>{item.title}</strong>
-              <p>{item.body}</p>
-            </article>
-          ))
-        }
-      </section>
-
-      <section class="quote-band" data-reveal>
+<section class="quote-band" data-reveal>
         <p class="quote-text">{copy.quote.text}</p>
       </section>
 
-      <p class="footer-note">{copy.footer.text}</p>
+      <p class="footer-note" set:html={copy.footer.text} />
     </main>
   </div>
 
