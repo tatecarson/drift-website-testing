@@ -78,7 +78,7 @@ const base = import.meta.env.BASE_URL;
           </div>
           <div class="manifesto" data-reveal>
             <ul class="bullet-list">
-              {copy.theory.bulletList.map((item) => <li>{item}</li>)}
+              {copy.theory.bulletList.map((item) => <li set:html={item} />)}
             </ul>
           </div>
         </div>

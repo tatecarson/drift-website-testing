@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Drift — Sculptural Sound Art",
-    "description": "Drift reimagines the white noise machine as sculptural sound art, exploring the continuum between noise and music through networked, resonant instruments."
+    "description": "Drift reimagines the white noise machine as sculptural sound art — exploring the history of sonic self-control from Buckwalter's first noise machine to the present, and asking what we lose when we mask the silence."
   },
   "header": {
     "kicker": "Tate Carson & Tim Murray",
@@ -10,11 +10,11 @@
   "hero": {
     "eyebrow": "About Drift",
     "title": "The white noise machine, reimagined as art.",
-    "introCopy": "Drift transforms utilitarian white noise machines into networked, resonant sound sculptures. Using microcontrollers, actuators, and tuned materials, each sculpture slowly shifts from noise toward emergent musical patterns — inviting deep listening and reflection on sonic self-control.",
+    "introCopy": "For decades, people have built technologies to control what they hear — white noise machines to sleep, nature recordings to focus, noise-cancelling headphones to tune out. Drift takes this impulse and makes it visible — and monumental. Scaled larger than a human, these sculptures reimagine the white noise machine as an object you confront rather than ignore. Using an Arduino microcontroller, servo motors, wood and tuned pipes, each sculpture slowly shifts from noise toward emergent musical patterns — inviting audiences to notice the sonic self-control they practice every day.",
     "metaTags": [
       "Sound & fabrication",
       "Orphic Media",
-      "Deep listening"
+      "Sonic self-control"
     ],
     "noteCards": [
       {
@@ -27,7 +27,7 @@
       },
       {
         "title": "The central question",
-        "body": "In what ways can the white noise machine be reconceived as an artistic object that illuminates the continuum between noise and music?"
+        "body": "What do we lose when we paper over silence? Drift asks audiences to sit with the sounds they ordinarily mask — and to notice what emerges."
       }
     ]
   },
@@ -40,22 +40,22 @@
     "eyebrow": "Theoretical Basis",
     "title": "How noise, sound, and listening shape daily life.",
     "bulletList": [
-      "Orphic Media: technologies like white noise machines modify perception and reshape mood and attention in ways we rarely examine.",
-      "Material memory: surfaces hold evidence of making, so process remains visible as part of the finished piece.",
-      "Threshold instrument: the sculpture gradually reveals the continuum between noise and music, turning a utilitarian object into a platform for reflective listening."
+      "Orphic Media: technologies like white noise machines modify perception and reshape mood and attention — what Mack Hagood calls <a href=\"https://dukeupress.edu/hush\" target=\"_blank\">orphic media</a> — in ways we rarely examine.",
+      "Sonic self-control: from <a href=\"https://www.theatlantic.com/technology/archive/2019/06/how-a-bad-nights-sleep-birthed-the-sound-conditioner/592177/\" target=\"_blank\">Buckwalter's first white noise machine</a> to <a href=\"https://boseaviation.com/about/history/\" target=\"_blank\">Bose's noise-cancelling headphones</a>, people have invented tools to command their auditory environment. Drift makes this history audible.",
+      "Technologies of the self: Irv Teibel's Environments records promised not just masking noise but improving productivity, sleep, even plant growth — sound as a technology for coping with the pressures of modern life."
     ],
     "cards": [
       {
-        "title": "Orphic Media",
-        "body": "Drift reframes the white noise machine as a technology that modifies perception and experience — emphasizing modulation over traditional representation."
+        "title": "Sonic self-control",
+        "body": "From a broken fan repurposed as the first white noise machine to headphones that subtract the world's frequencies, people have spent decades engineering their own silence. Drift enlarges that impulse into sculpture — making the pursuit of sonic control something you can see, hear, and stand beside."
       },
       {
         "title": "Noise as creative material",
-        "body": "The sculptures position noise not as something to mask or eliminate, but as creative material to be reshaped and experienced as music."
+        "body": "The sculptures position noise not as something to mask or eliminate, but as creative material. Where a white noise machine says 'you don't listen to this,' Drift says 'listen closer.'"
       },
       {
-        "title": "Deep listening",
-        "body": "By shifting between noise and musical patterns, the work encourages attentive listening and expanded awareness of everyday sound environments."
+        "title": "What silence reveals",
+        "body": "Tinnitus is sometimes described as the brain's signal for silence — our attention straining to find meaning in the quiet. Drift asks a similar question: what emerges when we stop masking and start listening?"
       }
     ]
   },
@@ -80,7 +80,7 @@
     ]
   },
   "quote": {
-    "text": "Drift encourages audiences to reconsider their listening habits and to recognize the artistry inherent in mediated sounds that influence daily life."
+    "text": "We spend our lives controlling what we hear — masking, cancelling, curating. Drift asks what happens when we stop managing the soundscape and start listening to it."
   },
   "footer": {
     "text": "Drift is supported by Dakota State University. The project integrates sound art scholarship with innovative artistic methods to expand discourse on underexamined sound technologies."
