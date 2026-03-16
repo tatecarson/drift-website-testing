@@ -1,9 +1,12 @@
 ---
+import { Image } from "astro:assets";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import copy from "../data/copy.json";
 import processItems from "../data/process.json";
 
-const base = import.meta.env.BASE_URL;
+const images = import.meta.glob<{ default: ImageMetadata }>(
+  "../assets/*.{jpeg,jpg,png,gif,webp}",
+);
 ---
 
 <BaseLayout title={copy.meta.title} description={copy.meta.description}>
@@ -57,15 +60,23 @@ const base = import.meta.env.BASE_URL;
 
         <div class="image-rail">
           {
-            processItems.map((item) => (
-              <figure class="image-card" data-reveal>
-                <img src={`${base}${item.image}`} alt={item.alt} />
-                <figcaption class="image-caption">
-                  <strong>{item.title}</strong>
-                  <span>{item.caption}</span>
-                </figcaption>
-              </figure>
-            ))
+            processItems.map((item) => {
+              const key = `..${item.image}`;
+              const imgSrc = images[key];
+              return (
+                <figure class="image-card" data-reveal>
+                  {imgSrc ? (
+                    <Image src={imgSrc()} alt={item.alt} />
+                  ) : (
+                    <img src={item.image} alt={item.alt} />
+                  )}
+                  <figcaption class="image-caption">
+                    <strong>{item.title}</strong>
+                    <span>{item.caption}</span>
+                  </figcaption>
+                </figure>
+              );
+            })
           }
         </div>
       </section>
