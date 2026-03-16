@@ -126,7 +126,7 @@ a:hover {
 }
 
 .hero-title {
-  font-size: clamp(3.2rem, 9vw, 7rem);
+  font-size: clamp(3.2rem, 5.5vw, 4.5rem);
   max-width: 100%;
   margin-top: 2rem;
 }
@@ -353,7 +353,8 @@ a:hover {
   color: var(--muted);
 }
 
-.bullet-list a {
+.bullet-list a,
+.manifesto a {
   text-decoration: underline;
   text-underline-offset: 0.15em;
 }
@@ -389,7 +390,7 @@ a:hover {
 }
 
 .quote-text {
-  font-size: clamp(2rem, 5vw, 4.5rem);
+  font-size: clamp(2rem, 4vw, 3.5rem);
   max-width: 18ch;
   font-weight: 300;
 }

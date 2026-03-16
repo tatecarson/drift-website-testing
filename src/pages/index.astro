@@ -88,9 +88,7 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
             <h2 class="section-title">{copy.theory.title}</h2>
           </div>
           <div class="manifesto" data-reveal>
-            <ul class="bullet-list">
-              {copy.theory.bulletList.map((item) => <li set:html={item} />)}
-            </ul>
+            <p set:html={copy.theory.description} />
           </div>
         </div>
 

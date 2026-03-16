@@ -10,8 +10,8 @@
   },
   "hero": {
     "eyebrow": "About Drift",
-    "title": "The white noise machine, reimagined as art.",
-    "introCopy": "For decades, people have built technologies to control what they hear — white noise machines to sleep, nature recordings to focus, noise-cancelling headphones to tune out. Drift takes this impulse and makes it visible — and monumental. Scaled larger than a human, these sculptures reimagine the white noise machine as an object you confront rather than ignore. Using an Arduino microcontroller, servo motors, wood and tuned pipes, each sculpture slowly shifts from noise toward emergent musical patterns — inviting audiences to notice the sonic self-control they practice every day.",
+    "title": "The white noise machine, reimagined as kinetic sound sculpture.",
+    "introCopy": "For decades, people have built technologies to control what they hear — white noise machines to sleep, nature recordings to focus, noise-cancelling headphones to tune out. Drift takes this impulse and makes it sculptural. Scaled larger than a human, these sculptures reimagine the white noise machine as an object you actively listen to rather than ignore. Using an Arduino microcontroller, servo motors, wood and tuned pipes, each sculpture slowly shifts from noise toward emergent musical patterns — inviting audiences to notice the sonic self-control they practice every day.",
     "metaTags": [
       "Sound & fabrication",
       "Orphic Media",
@@ -20,40 +20,31 @@
     "noteCards": [
       {
         "title": "What you'll experience",
-        "body": "Drift is sculptural as well as architectural — you don't just look at or listen to the work, you step inside it. Enveloped in a dynamic soundscape among resonant materials that reflect both light and sound, audiences hear themselves hearing, witnessing the transition from masking noise to emergent music."
+        "body": "Drift is sculptural as well as architectural — you don't just look at or listen to the work, you move around it. Enveloped in a dynamic soundscape among resonant materials, audiences hear themselves hearing, witnessing the transition from masking noise to emergent music."
       },
       {
         "title": "An interdisciplinary collaboration",
-        "body": "Sound design and programming by Tate Carson, design and fabrication by Tim Murray. The project integrates electronics and software with traditional woodcraft."
+        "body": "Sound design and programming by Tate Carson, design and fabrication by Tim Murray. The project integrates electronics and software with traditional woodworking."
       },
       {
         "title": "The central question",
-        "body": "What do we lose when we paper over silence? Drift asks audiences to sit with the sounds they ordinarily mask — and to notice what emerges."
+        "body": "What do we lose when we paper over silence? Drift asks audiences to sit with the sounds they usually use to mask the silence — and to notice what emerges."
       }
     ]
   },
   "process": {
     "eyebrow": "Process",
     "title": "How the work came together.",
-    "description": "Drift evolved through repeated cycles of prototyping, material testing, and sonic calibration. Each revision asked the same question: how can the sculpture remain visibly constructed — tool marks, seams, and all — while producing a transformed listening experience?"
+    "description": "Drift evolved through repeated cycles of prototyping, material testing, and sonic calibration."
   },
   "theory": {
     "eyebrow": "Theoretical Basis",
     "title": "How noise, sound, and listening shape daily life.",
-    "bulletList": [
-      "Orphic Media: technologies like white noise machines modify perception and reshape mood and attention — what Mack Hagood calls <a href=\"https://dukeupress.edu/hush\" target=\"_blank\">orphic media</a> — in ways we rarely examine.",
-      "Sonic self-control: from <a href=\"https://www.theatlantic.com/technology/archive/2019/06/how-a-bad-nights-sleep-birthed-the-sound-conditioner/592177/\" target=\"_blank\">Buckwalter's first white noise machine</a> to <a href=\"https://boseaviation.com/about/history/\" target=\"_blank\">Bose's noise-cancelling headphones</a>, people have invented tools to command their auditory environment. Drift makes this history audible.",
-      "Technologies of the self: Irv Teibel's Environments records promised not just masking noise but improving productivity, sleep, even plant growth — sound as a technology for coping with the pressures of modern life.",
-      "Scale and perception: scale once implied a straightforward relation between viewer and artwork, but contemporary installations examine scales that range outside normal perceptual understanding — works larger than can be experienced all at once, creating spaces audiences inhabit rather than observe."
-    ],
+    "description": "Technologies like white noise machines modify perception and reshape mood and attention — what Mack Hagood calls <a href=\"https://dukeupress.edu/hush\" target=\"_blank\">orphic media</a> — in ways we rarely examine. From <a href=\"https://www.theatlantic.com/technology/archive/2019/06/how-a-bad-nights-sleep-birthed-the-sound-conditioner/592177/\" target=\"_blank\">Buckwalter's first white noise machine</a> to <a href=\"https://www.irvteibel.com/catalog/\" target=\"_blank\">Irv Teibel's Environments records</a> to <a href=\"https://boseaviation.com/about/history/\" target=\"_blank\">Bose's noise-cancelling headphones</a>, people have spent decades engineering their own silence. Drift transforms that impulse into sculpture, making the pursuit of sonic control something you can see, hear, and stand beside. And by scaling the work beyond what can be experienced all at once, the installation creates a space audiences inhabit rather than observe.",
     "cards": [
       {
-        "title": "Sonic self-control",
-        "body": "From a broken fan repurposed as the first white noise machine to headphones that subtract the world's frequencies, people have spent decades engineering their own silence. Drift enlarges that impulse into sculpture — making the pursuit of sonic control something you can see, hear, and stand beside."
-      },
-      {
         "title": "Noise as creative material",
-        "body": "The sculptures position noise not as something to mask or eliminate, but as creative material. Where a white noise machine says 'you don't listen to this,' Drift says 'listen closer.'"
+        "body": "The sculptures position noise not as something to mask or eliminate, but as creative material."
       },
       {
         "title": "What silence reveals",
@@ -61,13 +52,13 @@
       },
       {
         "title": "Scale as confrontation",
-        "body": "Drift redesigns the white noise machine many times larger than its commercial counterpart, making it impractical for its intended purpose — masking unwanted sound in a living environment. This deliberate scaling transforms a background appliance into something you confront, stand inside, and reflect on. Drift allows us to hear ourselves hearing."
+        "body": "Drift redesigns the white noise machine many times larger than its commercial counterpart, making it impractical for its intended purpose — masking unwanted sound in a living environment. This deliberate scaling transforms a background appliance into something you confront, stand beside, and reflect on. Drift allows us to hear ourselves hearing."
       }
     ]
   },
   "future": {
     "eyebrow": "What's Next",
-    "title": "Four sculptures, one continuum.",
+    "title": "Four sculptures",
     "body": "Currently, Drift consists of a single kinetic sculpture. In its next phase, the installation will expand to four progressively smaller but identical sculptures — surrounding the listener in white noise and making the commentary on scale even more pronounced. Where one oversized machine already challenges the domestic comfort of its commercial counterpart, four will envelop the audience entirely, deepening the question of what happens when the tool we built to ignore sound becomes impossible to ignore."
   },
   "quote": {
