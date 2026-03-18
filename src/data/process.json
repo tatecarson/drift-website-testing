@@ -70,5 +70,23 @@
     "title": "Full Installation Design",
     "alt": "Scale study rendering showing the installation footprint relative to a standing viewer",
     "caption": "Tim's scale study for the Drift installation, created to explore the work's footprint and proportions in relation to a viewer's body."
+  },
+  {
+    "image": "/assets/12. installing-the-motors.jpeg",
+    "title": "Hanging the 'Brain'",
+    "alt": "Close-up of hands assembling goBILDA servo motors, brackets, and an Arduino on the circular plywood base",
+    "caption": "Tate hangs the 'brain' of the installation — the servo motors, brackets, and Arduino control board — from the underside of the circular plywood base, where they will drive the rotation of the suspended rings above."
+  },
+  {
+    "image": "/assets/14.5. attaching-the-strings.jpeg",
+    "title": "Attaching the Strings",
+    "alt": "Tim standing beneath the suspended ring, attaching hanging strings to the structure",
+    "caption": "Tim attaches the hanging strings to the suspended ring, carefully spacing each one to create the curtain of lines that defines Drift's interior form."
+  },
+  {
+    "image": "/assets/15. programming-the-movement.jpeg",
+    "title": "Programming the Movement",
+    "alt": "Tate programming at a laptop beneath the suspended ring with hanging strings",
+    "caption": "Tate programs Drift's rotational behavior from a laptop in the workshop."
   }
 ]
