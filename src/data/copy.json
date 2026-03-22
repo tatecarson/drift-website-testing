@@ -1,17 +1,17 @@
 {
   "meta": {
     "title": "Drift — Sculptural Sound Art",
-    "description": "Drift reimagines the white noise machine as sculptural sound art — exploring the history of sonic self-control from Buckwalter's first noise machine to the present, and asking what we lose when we mask the silence."
+    "description": "Drift reimagines the white noise machine as sculptural sound art, examining the history of sonic self-control from Buckwalter's first noise machine to the present."
   },
   "header": {
     "title": "Drift",
     "kicker": "Tate Carson & Tim Murray",
-    "subtitle": "Sculptural sound art exploring the continuum between noise and music."
+    "subtitle": "Sculptural sound art between noise and music."
   },
   "hero": {
     "eyebrow": "About Drift",
     "title": "The white noise machine, reimagined as kinetic sound sculpture.",
-    "introCopy": "For decades, people have built technologies to control what they hear — white noise machines to sleep, nature recordings to focus, noise-cancelling headphones to tune out. Drift takes this impulse and makes it sculptural. Scaled larger than a human, these sculptures reimagine the white noise machine as an object you actively listen to rather than ignore. Using an Arduino microcontroller, servo motors, wood and tuned pipes, each sculpture slowly shifts from noise toward emergent musical patterns — inviting audiences to notice the sonic self-control they practice every day.",
+    "introCopy": "Scaled larger-than-human, Drift reimagines the white noise machine as an object you actively listen to rather than ignore. Each sculpture — built from wood, tuned brass tubes, servo motors, and an Arduino microcontroller — slowly shifts from noise toward indeterminate musical patterns.",
     "metaTags": [
       "Sound & fabrication",
       "Orphic Media",
@@ -19,52 +19,47 @@
     ],
     "noteCards": [
       {
-        "title": "What you'll experience",
-        "body": "Drift is sculptural as well as architectural — you don't just look at or listen to the work, you move around it. Enveloped in a dynamic soundscape among resonant materials, audiences hear themselves hearing, witnessing the transition from masking noise to emergent music."
-      },
-      {
         "title": "An interdisciplinary collaboration",
-        "body": "Sound design and programming by Tate Carson, design and fabrication by Tim Murray. The project integrates electronics and software with traditional woodworking."
+        "body": "Tate Carson designed the sound and programming; Tim Murray designed and fabricated the structure."
       },
       {
         "title": "The central question",
-        "body": "What do we lose when we paper over silence? Drift asks audiences to sit with the sounds they usually use to mask the silence — and to notice what emerges."
+        "body": "What do we lose when we control our soundscape?"
       }
     ]
   },
   "process": {
     "eyebrow": "Process",
-    "title": "How the work came together.",
-    "description": "Drift evolved through repeated cycles of prototyping, material testing, and sonic calibration."
+    "title": "How the work came together."
   },
   "theory": {
     "eyebrow": "Theoretical Basis",
     "title": "How noise, sound, and listening shape daily life.",
-    "description": "Technologies like white noise machines modify perception and reshape mood and attention — what Mack Hagood calls <a href=\"https://dukeupress.edu/hush\" target=\"_blank\">orphic media</a> — in ways we rarely examine. From <a href=\"https://www.theatlantic.com/technology/archive/2019/06/how-a-bad-nights-sleep-birthed-the-sound-conditioner/592177/\" target=\"_blank\">Buckwalter's first white noise machine</a> to <a href=\"https://www.irvteibel.com/catalog/\" target=\"_blank\">Irv Teibel's Environments records</a> to <a href=\"https://boseaviation.com/about/history/\" target=\"_blank\">Bose's noise-cancelling headphones</a>, people have spent decades engineering their own silence. Drift transforms that impulse into sculpture, making the pursuit of sonic control something you can see, hear, and stand beside. And by scaling the work beyond what can be experienced all at once, the installation creates a space audiences inhabit rather than observe.",
+    "description": "Technologies like white noise machines modify perception and reshape mood and attention, what Mack Hagood calls <a href=\"https://dukeupress.edu/hush\" target=\"_blank\">orphic media</a>. From <a href=\"https://www.theatlantic.com/technology/archive/2019/06/how-a-bad-nights-sleep-birthed-the-sound-conditioner/592177/\" target=\"_blank\">Buckwalter's first white noise machine</a> to <a href=\"https://www.irvteibel.com/catalog/\" target=\"_blank\">Irv Teibel's Environments records</a> to <a href=\"https://boseaviation.com/about/history/\" target=\"_blank\">Bose's noise-cancelling headphones</a>, people have spent decades engineering their own silence. Drift transforms that impulse into sculpture by making the pursuit of sonic control physical and immediate. And by scaling the work beyond what can be experienced all at once, the installation creates a space audiences inhabit rather than observe.",
     "cards": [
       {
-        "title": "Noise as creative material",
-        "body": "The sculptures position noise not as something to mask or eliminate, but as creative material."
+        "title": "Scale as confrontation",
+        "body": "Drift redesigns the white noise machine many times larger than its commercial counterpart, making it impractical for its intended purpose — masking unwanted sound in a living environment. You confront the noise you'd usually ignore."
       },
       {
         "title": "What silence reveals",
-        "body": "Tinnitus is sometimes described as the brain's signal for silence — our attention straining to find meaning in the quiet. Drift asks a similar question: what emerges when we stop masking and start listening?"
+        "body": "Tinnitus is sometimes described as the brain's response to silence — our attention straining to find meaning in the quiet. Many tinnitus sufferers use white noise machines to mask the ringing. The brain fills silence with noise; we cover that noise with more noise. Drift makes that loop audible."
       },
       {
-        "title": "Scale as confrontation",
-        "body": "Drift redesigns the white noise machine many times larger than its commercial counterpart, making it impractical for its intended purpose — masking unwanted sound in a living environment. This deliberate scaling transforms a background appliance into something you confront, stand beside, and reflect on. Drift allows us to hear ourselves hearing."
+        "title": "Noise as creative material",
+        "body": "The sculptures position noise not as something to mask or eliminate, but as creative material. Rather than mask or eliminate noise, the sculptures shape it."
       }
     ]
   },
   "future": {
     "eyebrow": "What's Next",
     "title": "Four sculptures",
-    "body": "Currently, Drift consists of a single kinetic sculpture. In its next phase, the installation will expand to four progressively smaller but identical sculptures — surrounding the listener in white noise and making the commentary on scale even more pronounced. Where one oversized machine already challenges the domestic comfort of its commercial counterpart, four will envelop the audience entirely, deepening the question of what happens when the tool we built to ignore sound becomes impossible to ignore."
+    "body": "Currently, Drift consists of a single kinetic sculpture. Next, the installation will expand to four progressively smaller but identical sculptures — surrounding the listener in white noise and creating an environment they can move through."
   },
   "quote": {
-    "text": "We spend our lives controlling what we hear — masking, cancelling, curating. Drift asks what happens when we stop managing the soundscape and start listening to it."
+    "text": "We spend our lives controlling what we hear through masking and curating. Drift asks what happens when we stop managing the soundscape and start listening to it."
   },
   "footer": {
-    "text": "Drift will debut at <a href=\"https://dsu.edu/research/research-events.html\" target=\"_blank\">DSU Research Week</a>, Dakota State University, Madison, SD. The project is supported by DSU and integrates sound art scholarship with innovative artistic methods."
+    "text": "Drift will debut at <a href=\"https://dsu.edu/research/research-events.html\" target=\"_blank\">DSU Research Week</a>, Dakota State University, Madison, SD. The project is supported by DSU through a Faculty Research Initiative Grant."
   }
 }
