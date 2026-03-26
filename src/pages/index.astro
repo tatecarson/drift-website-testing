@@ -3,6 +3,7 @@ import { Image } from "astro:assets";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import copy from "../data/copy.json";
 import processItems from "../data/process.json";
+import driftVideo from "../assets/video/drift-demo.mp4";
 
 const images = import.meta.glob<{ default: ImageMetadata }>(
   "../assets/*.{jpeg,jpg,png,gif,webp}",
@@ -25,6 +26,12 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
     </header>
 
     <main>
+      <section class="hero-video" data-reveal>
+        <video controls loop playsinline>
+          <source src={driftVideo} type="video/mp4" />
+        </video>
+      </section>
+
       <section class="hero-grid" id="overview">
         <article class="intro-panel" data-reveal>
           <div>
