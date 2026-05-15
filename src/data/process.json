@@ -3,7 +3,7 @@
     "image": "/assets/1. early-experimentation.jpeg",
     "title": "Early Experimentation",
     "alt": "Prototype disc fitted with vertical wooden dowels during an early studio sound and form experiment",
-    "caption": "Tim with a prototype disc fitted with vertical wooden dowels."
+    "caption": "A prototype disc fitted with vertical wooden dowels during an early studio sound and form experiment."
   },
   {
     "image": "/assets/2. cutting-rings.jpeg",
@@ -33,7 +33,7 @@
     "image": "/assets/6. diagramming-rotation.jpeg",
     "title": "Diagramming the Rotation",
     "alt": "Digital overhead schematic of the base motor and belt-drive system",
-    "caption": "Tim's schematic for the motor and belt-drive system, working out servo placement and pulley routing."
+    "caption": "A schematic for the motor and belt-drive system, working out servo placement and pulley routing."
   },
   {
     "image": "/assets/7. building-the-base.jpeg",
@@ -51,7 +51,7 @@
     "image": "/assets/9. building the base-3.jpeg",
     "title": "Securing the Base",
     "alt": "Fasteners being drilled into the assembled circular base while clamps remain in place",
-    "caption": "Tim drills fasteners into the assembled base, with glue and bar clamps still in place. The structure is nearly five feet in diameter."
+    "caption": "Fasteners are drilled into the assembled base, with glue and bar clamps still in place. The structure is nearly five feet in diameter."
   },
   {
     "image": "/assets/9.5 the base.jpeg",
@@ -63,30 +63,30 @@
     "image": "/assets/10. spinning mechanism.jpeg",
     "title": "Electronics and Motion",
     "alt": "Servo motors, brackets, wiring, and a wooden bearing housing laid out for assembly",
-    "caption": "Tate lays out the servo motors, brackets, and control wiring for Drift's rotation mechanism."
+    "caption": "Servo motors, brackets, and control wiring laid out for Drift's rotation mechanism."
   },
   {
     "image": "/assets/11. full-design-diagram.png",
     "title": "Full Installation Design",
     "alt": "Scale study rendering showing the installation footprint relative to a standing viewer",
-    "caption": "Tim's scale study for the Drift installation."
+    "caption": "Scale study for the Drift installation."
   },
   {
     "image": "/assets/12. installing-the-motors.jpeg",
     "title": "Hanging the 'Brain'",
     "alt": "Close-up of hands assembling goBILDA servo motors, brackets, and an Arduino on the circular plywood base",
-    "caption": "Tate hangs the 'brain' of the installation which drives the rotation of the suspended rings above. The 'brain' consists of servo motors, brackets, and an Arduino control board. "
+    "caption": "The 'brain' of the installation drives the rotation of the suspended rings above. It consists of servo motors, brackets, and an Arduino control board."
   },
   {
     "image": "/assets/14.5. attaching-the-strings.jpeg",
     "title": "Attaching the Strings",
-    "alt": "Tim standing beneath the suspended ring, attaching hanging strings to the structure",
+    "alt": "A person standing beneath the suspended ring, attaching hanging strings to the structure",
     "caption": "Hanging strings attached to the suspended ring from below."
   },
   {
     "image": "/assets/15. programming-the-movement.jpeg",
     "title": "Programming the Movement",
-    "alt": "Tate programming at a laptop beneath the suspended ring with hanging strings",
-    "caption": "Tate programs Drift's rotational behavior from a laptop in the workshop."
+    "alt": "A person programming at a laptop beneath the suspended ring with hanging strings",
+    "caption": "Drift's rotational behavior is programmed from a laptop in the workshop."
   }
 ]
